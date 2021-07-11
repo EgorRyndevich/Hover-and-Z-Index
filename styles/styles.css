@@ -1,0 +1,96 @@
+* {
+    margin: 0 auto;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.cotainer__box {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(50, 0, 250);
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    z-index: 1;
+}
+
+.cotainer__box:hover {
+    z-index: 3;
+}
+
+.container__little-box {
+    width: 25%;
+    height: 25%;
+    background-color: burlywood;
+    position: absolute;
+    left: 37.5%;
+    top: 37.5%;
+    border-radius: 10%;
+    z-index: 2;
+}    
+
+.container__ball-first {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    background-color:rgb(250, 0, 0);
+    position: absolute;
+    left: 12.5%;
+    top: 12.5%; 
+}
+
+.container__ball-first:hover {
+    z-index: 2;
+    background-color:rgb(250, 179, 0);
+}
+
+.container__ball-second {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    background-color: rgb(250, 0, 0);
+    position: absolute;
+    left: 62.5%;
+    top: 12.5%; 
+}
+
+.container__ball-second:hover {
+    z-index: 2;
+    background-color: rgb(75, 250, 0);
+}
+
+.container__ball-third {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    background-color: rgb(250, 0, 0);
+    position: absolute;
+    left: 62.5%;
+    top: 62.5%; 
+}
+
+.container__ball-third:hover {
+    z-index: 2;
+    background-color: rgb(0, 250, 208);
+}
+
+.container__ball-fourth {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    background-color: rgb(250, 0, 0);
+    position: absolute;
+    left: 12.5%;
+    top: 62.5%; 
+}
+
+.container__ball-fourth:hover {
+    z-index: 2;
+    background-color: rgb(229, 0, 250);
+}
+
+
